@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form id="name-players" action="game.html" method="get">
+    <form id="name-players" method="get">
         <label for="player1">Name of Player 1:</label>
         <input type="text" id="name-player1" name="name-player1" required>
         <label for="player2">Name of Player 2:</label>
@@ -15,6 +15,7 @@
         <button type="submit" id="start-game">Start Game</button>
     </form>
     <div id="turn-container" class="turn-message"></div>
+    <div id="reset-button" class="hidden">Reset Game</div>
     <section id="tictactoe" class="hidden">
         <div id="container">
             <div class="frame" data-index = "0"></div>
@@ -31,5 +32,3 @@
 <script src="javaScript.js" ></script>
 </body>
 </html>
-
-<form action="">

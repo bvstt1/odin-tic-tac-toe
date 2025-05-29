@@ -26,7 +26,7 @@ label, button{
 
 .disabled {
     pointer-events: none;
-  }
+}
 
 .centrado{
     margin: 0 auto;
@@ -49,4 +49,17 @@ label, button{
 #turn-container{
     font-size: 3em;
     margin-bottom: 10px;
+}
+
+#reset-button{
+    text-align: center;
+    width: 8em;
+    margin-top: 10px;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
