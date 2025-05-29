@@ -1,0 +1,52 @@
+.hidden{
+    display: none;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* centra horizontalmente */
+    align-items: center;   
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+label, button{
+    width: 300px;
+}
+
+.disabled {
+    pointer-events: none;
+  }
+
+.centrado{
+    margin: 0 auto;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 10rem 10rem 10rem;
+}
+
+.frame{
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+}
+
+#turn-container{
+    font-size: 3em;
+    margin-bottom: 10px;
+}

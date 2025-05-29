@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <form id="name-players" action="game.html" method="get">
+        <label for="player1">Name of Player 1:</label>
+        <input type="text" id="name-player1" name="name-player1" required>
+        <label for="player2">Name of Player 2:</label>
+        <input type="text" id="name-player2" name="name-player2" required>
+        <button type="submit" id="start-game">Start Game</button>
+    </form>
+    <div id="turn-container" class="turn-message"></div>
+    <section id="tictactoe" class="hidden">
+        <div id="container">
+            <div class="frame" data-index = "0"></div>
+            <div class="frame" data-index = "1"></div>
+            <div class="frame" data-index = "2"></div>
+            <div class="frame" data-index = "3"></div>
+            <div class="frame" data-index = "4"></div>
+            <div class="frame" data-index = "5"></div>
+            <div class="frame" data-index = "6"></div>
+            <div class="frame" data-index = "7"></div>
+            <div class="frame" data-index = "8"></div>
+        </div>
+    </section>
+<script src="javaScript.js" ></script>
 </body>
 </html>
+
+<form action="">
